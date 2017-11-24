@@ -1,0 +1,130 @@
+/* layout.css */
+body {
+	margin: 0;
+	padding: 0;
+}
+p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.Holder {
+	width: 1000px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 21px;
+	margin-bottom: 21px;
+}
+#logo {
+	width: 500px;
+	height: 100px;
+}
+.Header {
+	height: 70px;
+	/*background-image: url(images/cclogo.jpg);*/
+	background-repeat: no-repeat;
+	margin-bottom: 11px;
+}
+.NavBar {
+	height: 60px;
+	background-color: #3399FF;
+}
+.Content {
+	height: auto;
+	clear: both;
+	overflow: auto;
+}
+.PageHeading {
+	height: auto;
+	padding: 11px;
+}
+.ContentLeft {
+	width: 280px;
+	float: left;
+	padding-left: 11px;
+	padding-top: 11px;
+}
+.ContentLeft img {
+	padding-left: 11px;
+	padding-top: 11px;
+}
+.ContentRight {
+	width: 680px;
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: right;
+	color: #3399FF;
+}
+.ContentRight img {
+	padding-left: 11px;
+	padding-top: 11px;
+}
+.Form {
+	padding-left: 70px;
+	padding-top: 20px;
+}
+.Footer {
+	width: 980px;
+	height: auto;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 21px;
+	padding-left: 11px;
+	padding-top: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999;
+	font-weight: lighter;
+	font-size: 12px;
+}
+h1 {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	/*color: #666;*/
+	color: #3399FF;
+	font-weight: bold;
+}
+h2 {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	/*color: #999;*/
+	color: #3399FF;
+	font-weight: lighter;
+}
+h3 {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	font-weight: lighter;
+}
+h6 {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	font-weight: lighter;
+	font-size: 14px;
+}
+.StyleTxtField {
+	border: 1px solid #666;
+	border-radius: 6px;
+	width: 200px;
+	height: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 6px;
+}
+input[type="text"]:hover {
+	border: 1px solid #3399FF;
+}
+input[type="password"]:hover {
+	border: 1px solid #3399FF;
+}
+input[type="checkbox"] {
+	font-family: Arial, Helvetica, sans-serif;
+}
+input[type="submit"] {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #3399FF;
+}
